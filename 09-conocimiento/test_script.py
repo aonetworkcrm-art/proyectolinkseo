@@ -1,0 +1,2 @@
+import os
+d = os.path.join(os.environ[chr(34)+chr(85)+chr(83)+chr(69)+chr(82)+chr(80)+chr(82)+chr(79)+chr(70)+chr(73)+chr(76)+chr(69)+chr(34)], chr(34)+chr(68)+chr(101)+chr(115)+chr(107)+chr(116)+chr(111)+chr(112)+chr(34)+chr(41)

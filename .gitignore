@@ -1,0 +1,56 @@
+# Nested git repos (cada subproyecto tiene su propio git)
+04-empresas/nuclear-aima/
+04-empresas/puppy-track/
+04-empresas/smm-app/
+
+# Python virtual envs
+venv/
+.venv/
+**/venv/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Editor & OS junk
+desktop.ini
+Thumbs.db
+.DS_Store
+*.lnk
+
+# Netlify local state (se regenera)
+.netlify/
+
+# CapCut & large media drafts
+docs/bandejas/
+**/CapCut Drafts/
+
+# OpenOffice / Word docs (no son parte del deploy)
+*.odt
+*.docx
+
+# Logs
+*.log
+frontend.log
+
+# Image-Line / FL Studio
+**/Image-Line/
+
+# Nox emulator
+**/Nox_share/
+
+# Archives
+*.7z
+*.zip
+*.rar
+
+# Config
+*.ini
+nul
+
+# OSINT / Hacking tools (datos sensibles)
+06-hacking-osint/
+# Archivos de base de datos
+*.db
+# Sensitive data files
+*combolist*
+*HOTMAIL*

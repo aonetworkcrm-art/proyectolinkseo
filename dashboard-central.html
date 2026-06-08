@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🌌 Proyecto: Link SEO - Dashboard Central</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{--bg:#0a0a12;--bg2:#12121e;--card:#1a1a2e;--cardh:#222240;--text:#f0f0ff;--text2:#8888bb;--cy:#00f0ff;--pu:#7c3aed;--pi:#ec4899;--go:#f59e0b;--gr:#10b981;--re:#ef4444;--bd:rgba(255,255,255,0.06);--rd:16px;--tr:0.35s ease;}
+body{font-family:system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+.app{max-width:1400px;margin:0 auto;padding:24px 32px 80px}
+.hdr{display:flex;align-items:center;justify-content:space-between;padding:20px 0;margin-bottom:40px;border-bottom:1px solid var(--bd);flex-wrap:wrap;gap:16px}
+.hero{text-align:center;padding:40px 20px 50px}
+.hero h2{font-size:clamp(28px,4vw,44px);font-weight:800}
+.hl{background:linear-gradient(135deg,var(--cy),var(--pu),var(--pi));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.sec{display:flex;align-items:center;justify-content:space-between;margin:40px 0 16px;flex-wrap:wrap;gap:12px}
+.sec h3{font-size:20px;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:var(--rd);padding:20px;text-decoration:none;color:inherit;display:block;transition:var(--tr)}
+.card:hover{background:var(--cardh);transform:translateY(-3px)}
+.card .t{font-size:16px;font-weight:600;margin-bottom:6px}
+.card .d{font-size:13px;color:var(--text2);line-height:1.5}
+.s{display:inline-block;margin-top:10px;font-size:11px;padding:3px 10px;border-radius:8px;background:rgba(255,255,255,0.04)}
+.s.d{background:rgba(239,68,68,0.1);color:var(--re)}
+.s.a{background:rgba(16,185,129,0.1);color:var(--gr)}
+.eg{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.ec{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px;text-decoration:none;color:inherit;display:block;transition:var(--tr)}
+.ec:hover{background:var(--cardh);transform:translateY(-2px)}
+.ec .n{font-size:14px;font-weight:600}
+.ec .r{font-size:12px;color:var(--text2)}
+.tg{display:inline-block;margin-top:6px;font-size:10px;font-weight:600;text-transform:uppercase;padding:2px 8px;border-radius:6px}
+.t1{background:rgba(0,240,255,0.1);color:var(--cy)}
+.t2{background:rgba(245,158,11,0.1);color:var(--go)}
+.t3{background:rgba(236,72,153,0.1);color:var(--pi)}
+.t4{background:rgba(239,68,68,0.1);color:var(--re)}
+.t5{background:rgba(124,58,237,0.1);color:var(--pu)}
+.t6{background:rgba(16,185,129,0.1);color:var(--gr)}
+.qb{display:flex;gap:8px;flex-wrap:wrap;padding:12px 0}
+.qb a{padding:8px 16px;border-radius:10px;font-size:12px;background:var(--card);border:1px solid var(--bd);color:var(--text2);text-decoration:none}
+.qb a:hover{color:var(--cy)}
+.qb .p{background:linear-gradient(135deg,rgba(0,240,255,0.12),rgba(124,58,237,0.12));border-color:rgba(0,240,255,0.15);color:var(--cy)}
+.ft{margin-top:60px;padding-top:24px;border-top:1px solid var(--bd);text-align:center;color:var(--text2);font-size:13px}
+.ft strong{color:var(--cy)}
+@media(max-width:768px){.app{padding:16px}.hdr{flex-direction:column}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="hdr">
+<div><h1 style="font-size:24px;font-weight:700;background:linear-gradient(135deg,var(--text),var(--cy));-webkit-background-clip:text;-webkit-text-fill-color:transparent">🌌 Proyecto: Link SEO</h1><div style="font-size:13px;color:var(--text2)">Tu Universo Digital · Tokenización del Ser</div></div>
+<div style="display:flex;gap:20px;align-items:center">
+<div style="text-align:center"><div style="font-size:22px;font-weight:700;color:var(--cy)">11</div><div style="font-size:11px;color:var(--text2);text-transform:uppercase">Módulos</div></div>
+<div style="text-align:center"><div style="font-size:22px;font-weight:700;color:var(--cy)">12</div><div style="font-size:11px;color:var(--text2);text-transform:uppercase">Empresas</div></div>
+<div style="display:flex;align-items:center;gap:6px;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;background:rgba(16,185,129,0.12);color:var(--gr);border:1px solid rgba(16,185,129,0.2)"><span style="width:7px;height:7px;border-radius:50%;background:var(--gr)"></span>Sistema activo</div>
+</div>
+</header>
+<section class="hero">
+<h2><span class="hl">Link SEO</span> — Tu Conciencia Digitalizada en Blockchain</h2>
+<p style="font-size:18px;color:var(--text2);max-width:700px;margin:16px auto 0;line-height:1.6">Centro de comando de tu universo. Cada módulo es una dimensión de tu ser, conocimiento e imperio.</p>
+<div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:20px">
+<span style="padding:4px 12px;border-radius:20px;font-size:12px;background:rgba(255,255,255,0.04);border:1px solid var(--bd)">🧬 ADN Digital</span>
+<span style="padding:4px 12px;border-radius:20px;font-size:12px;background:rgba(255,255,255,0.04);border:1px solid var(--bd)">💰 Dinecap</span>
+<span style="padding:4px 12px;border-radius:20px;font-size:12px;background:rgba(255,255,255,0.04);border:1px solid var(--bd)">🏛️ Nuclear AIMA</span>
+<span style="padding:4px 12px;border-radius:20px;font-size:12px;background:rgba(255,255,255,0.04);border:1px solid var(--bd)">🔗 Smart Contracts</span>
+<span style="padding:4px 12px;border-radius:20px;font-size:12px;background:rgba(255,255,255,0.04);border:1px solid var(--bd)">🛡️ Hacking Ético</span>
+<span style="padding:4px 12px;border-radius:20px;font-size:12px;background:rgba(255,255,255,0.04);border:1px solid var(--bd)">🎵 Royalty Recovery</span>
+<span style="padding:4px 12px;border-radius:20px;font-size:12px;background:rgba(255,255,255,0.04);border:1px solid var(--bd)">📈 SEO Cuántico</span>
+</div>
+</section>
+<div class="qb">
+<a href="#nucleo">🧬 Mi Núcleo</a>
+<a href="#finanzas">💰 Dinecap</a>
+<a href="#empresas" class="p">🏢 Imperio</a>
+<a href="#salud">❤️ Salud</a>
+<a href="#blockchain">🔗 Blockchain</a>
+<a href="#hacking">🛡️ OSINT</a>
+<a href="#conocimiento">📚 Conocimiento</a>
+<a href="#marketing">📊 Marketing</a>
+</div>
+<div class="sec" id="nucleo"><h3>🧬 Núcleo Personal</h3><span style="font-size:13px;color:var(--text2)">Tu esencia digitalizada</span></div>
+<div class="grid">
+<a href="01-nucleo-personal/perfil-general.html" class="card"><div class="t">👤 Perfil General</div><div class="d">Nombre, sangre, descendencia. Signos: Acuario (actual) · Capricornio (Aciocus). Ascendente Piscis. Registros akáshicos.</div><span class="s d">Borrador</span></a>
+<a href="01-nucleo-personal/salud-biometria.html" class="card"><div class="t">❤️ Salud & Biometría</div><div class="d">Órganos, cuerpo, capas, neuronas, pelo, piel. Tracking integral.</div><span class="s d">Borrador</span></a>
+<a href="01-nucleo-personal/genealogia.html" class="card"><div class="t">🌳 Árbol Genealógico</div><div class="d">Padres: Ramón Martínez "Mochy" y Nicolasa Vargas "Rosmery". Hijos: 15, 8 y 6 años. Pareja. Ascendencia.</div><span class="s d">Borrador</span></a>
+<a href="01-nucleo-personal/astrologia.html" class="card"><div class="t">♒ Astrología & Espiritualidad</div><div class="d">Acuario (actual) · Capricornio/Piscis (Aciocus) · Ascendente. Registros akáshicos.</div><span class="s d">Borrador</span></a>
+</div>
+<div class="sec" id="finanzas"><h3>💰 Finanzas — Dinecap</h3><span style="font-size:13px;color:var(--text2)">4 colchones · 25% cada uno</span></div>
+<div class="grid">
+<a href="02-finanzas/colchon-ocio.html" class="card"><div class="t">🎮 Colchón 1: Ocio</div><div class="d">25% — Viajar, experiencias, ensayar, bailar, conciertos.</div><span class="s d">Borrador</span></a>
+<a href="02-finanzas/colchon-ahorros.html" class="card"><div class="t">🏦 Colchón 2: Ahorros</div><div class="d">25% — Ahorro sistemático, metas financieras.</div><span class="s d">Borrador</span></a>
+<a href="02-finanzas/colchon-inversion.html" class="card"><div class="t">📈 Colchón 3: Inversión</div><div class="d">25% — Inversiones, trading, cripto, bienes raíces.</div><span class="s d">Borrador</span></a>
+<a href="02-finanzas/colchon-emergencia.html" class="card"><div class="t">🛡️ Colchón 4: Caja Fuerte</div><div class="d">25% — Fondo de emergencia, seguridad financiera.</div><span class="s d">Borrador</span></a>
+</div>
+<div class="sec"><h3>👨‍👩‍👧‍👦 Familia</h3><span style="font-size:13px;color:var(--text2)">Tu legado vivo</span></div>
+<div class="grid">
+<a href="03-familia/arbol-familiar.html" class="card"><div class="t">🌳 Árbol Familiar</div><div class="d">Tú, pareja, 3 hijos (15, 8 y 6 años). Padres: Ramón Martínez y Nicolasa Vargas.</div><span class="s d">Borrador</span></a>
+<a href="03-familia/herederos.html" class="card"><div class="t">👑 Legado & Herencia</div><div class="d">Sucesión digital, tokenización del legado para tus hijos.</div><span class="s d">Borrador</span></a>
+</div>
+<div class="sec" id="empresas"><h3>🏢 Imperio Empresarial</h3><span style="font-size:13px;color:var(--text2)">12 empresas · 1 visión</span></div>
+<div class="eg">
+<a href="04-empresas/scaling-flow/index.html" class="ec"><div class="n">⚡ Scaling Flow IA</div><div class="r">Marketing Intelligence</div><span class="tg t1">IA</span><span class="tg t2" style="margin-left:4px">Marketing</span></a>
+<a href="04-empresas/nuclear-aima/index.html" class="ec"><div class="n">☢️ Nuclear AIMA</div><div class="r">Infraestructura Digital</div><span class="tg t1">IA</span><span class="tg t2" style="margin-left:4px">SEO</span></a>
+<a href="04-empresas/nuclear-music-networks/GOYO/index.html" class="ec"><div class="n">🎵 Nuclear Music Networks</div><div class="r">Sello · Royalty Recovery</div><span class="tg t3">Música</span><span class="tg t5" style="margin-left:4px">Web3</span></a>
+<a href="04-empresas/bionexus/index.html" class="ec"><div class="n">🧬 BioNexus</div><div class="r">HealthTech · Biometría</div><span class="tg t1">IA</span><span class="tg t6" style="margin-left:4px">Salud</span></a>
+<a href="04-empresas/aosmma/index.html" class="ec"><div class="n">🛡️ AOSMMA</div><div class="r">Ciberseguridad · OSINT</div><span class="tg t4">Hacking</span></a>
+<a href="04-empresas/hyperion/index.html" class="ec"><div class="n">🌐 Hyperion</div><div class="r">Blockchain · DEPIN</div><span class="tg t5">Blockchain</span></a>
+<a href="04-empresas/heritage/index.html" class="ec"><div class="n">🏛️ Heritage</div><div class="r">Tokenización de Patrimonio</div><span class="tg t5">Web3</span><span class="tg t6" style="margin-left:4px">Fintech</span></a>
+<a href="04-empresas/neuroforja/index.html" class="ec"><div class="n">🧠 NeuroForja</div><div class="r">IA Cognitiva · Lora</div><span class="tg t1">IA</span></a>
+<a href="04-empresas/shadowpost/index.html" class="ec"><div class="n">👻 ShadowPost</div><div class="r">Social Engineering</div><span class="tg t2">Social</span><span class="tg t4" style="margin-left:4px">Growth</span></a>
+<a href="04-empresas/puppy-track/index.html" class="ec"><div class="n">🐾 Puppy Track</div><div class="r">Tracking · Monitoreo</div><span class="tg t1">IA</span></a>
+<a href="04-empresas/smm-app/index.html" class="ec"><div class="n">📱 SMM App</div><div class="r">Social Media Mgmt</div><span class="tg t2">Marketing</span></a>
+<a href="04-empresas/nuclear-aima/cotizador.html" class="ec" style="border-color:rgba(0,240,255,0.15)"><div class="n">📊 Cotizador Nuclear</div><div class="r">Presupuestos · Ventas</div><span class="tg t1">Tool</span></a>
+</div>
+<div class="sec" id="marketing"><h3>📊 Marketing & SEO</h3><span style="font-size:13px;color:var(--text2)">Tráfico masivo · Embudos</span></div>
+<div class="grid">
+<a href="05-marketing-seo/seo-semantico.html" class="card"><div class="t">🔍 SEO Semántico</div><div class="d">Tokens de búsqueda, clusters semánticos, tráfico avalancha.</div><span class="s d">Borrador</span></a>
+<a href="05-marketing-seo/embudos-ventas.html" class="card"><div class="t">🔻 Embudos de Ventas</div><div class="d">Funnels, captación, conversión, upsells.</div><span class="s d">Borrador</span></a>
+<a href="05-marketing-seo/automatizaciones.html" class="card"><div class="t">🤖 Automatizaciones</div><div class="d">Redes sociales, streaming, scheduling masivo.</div><span class="s d">Borrador</span></a>
+</div>
+<div class="sec" id="hacking"><h3>🛡️ Hacking Ético & OSINT</h3><span style="font-size:13px;color:var(--text2)">Inteligencia · Extracción · Valor</span></div>
+<div class="grid">
+<a href="06-hacking-osint/osint-engine.html" class="card"><div class="t">🕵️ OSINT Engine</div><div class="d">Extracción de datos, inteligencia abierta.</div><span class="s a">Con datos</span></a>
+<a href="06-hacking-osint/bots-mev.html" class="card"><div class="t">🤖 Bots MEV</div><div class="d">Maximum Extractable Value, arbitraje.</div><span class="s d">Borrador</span></a>
+<a href="06-hacking-osint/herramientas/index.html" class="card"><div class="t">⚙️ Toolkit</div><div class="d">Herramientas, scripts, checkers.</div><span class="s a">Activo</span></a>
+</div>
+<div class="sec" id="blockchain"><h3>🔗 Blockchain & Web3</h3><span style="font-size:13px;color:var(--text2)">Smart Contracts · DEPIN · Tokenización</span></div>
+        <div class="grid">
+            <a href="07-blockchain-web3/smart-contracts/" class="card">
+                <div class="t">📜 Smart Contracts</div>
+                <div class="d">ERC-20 · ERC-721 · ERC-1155 — Borrador</div>
+            </a>
+            <a href="07-blockchain-web3/dePIN/" class="card">
+                <div class="t">⚡ DEPIN</div>
+                <div class="d">Infraestructura descentralizada — Borrador</div>
+            </a>
+            <a href="07-blockchain-web3/nfts/" class="card">
+                <div class="t">🎨 NFTs</div>
+                <div class="d">Tokenización de activos y regalías — Borrador</div>
+            </a>
+            <!-- MASK -->
+            <div class="card" style="border-color:rgba(246,133,27,0.25)">
+                <div class="t">🦊 MetaMask</div>
+                <div class="d" style="margin-bottom:10px">Conecta tu wallet Ethereum para recibir pagos.</div>
+                <div id="mm-status" style="font-size:12px;color:var(--text2);margin-bottom:8px">⛔ No conectado</div>
+                <div id="mm-address" style="font-size:10px;color:var(--cy);font-family:monospace;word-break:break-all;margin-bottom:10px;display:none"></div>
+                <div id="mm-balance" style="font-size:11px;color:var(--text2);margin-bottom:10px;display:none"></div>
+                <button id="mm-connect-btn" onclick="connectMetaMask()" style="background:var(--accent);color:#000;border:none;padding:6px 14px;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600;margin-right:6px">🔌 Conectar Wallet</button>
+                <button id="mm-receive-btn" onclick="receivePayment()" style="background:transparent;color:var(--cy);border:1px solid var(--cy);padding:6px 14px;border-radius:6px;cursor:pointer;font-size:12px;display:none">💳 Recibir Pago</button>
+                <div id="mm-qr" style="margin-top:10px;display:none">
+                    <div style="font-size:11px;color:var(--text2);margin-bottom:6px">Escanea o copia la dirección para recibir:</div>
+                    <div style="display:flex;gap:6px;align-items:center">
+                        <input id="mm-addr-copy" type="text" readonly style="flex:1;background:var(--card);color:var(--cy);border:1px solid rgba(0,240,255,0.2);border-radius:4px;padding:5px 8px;font-size:11px;font-family:monospace">
+                        <button onclick="copyAddress(event)" style="background:var(--cy);color:#000;border:none;padding:5px 10px;border-radius:4px;cursor:pointer;font-size:11px;font-weight:600">📋 Copiar</button>
+                    </div>
+                    <div style="margin-top:6px;font-size:11px;color:var(--gold)">⚡ Soporta ETH · USDC · USDT · cualquier ERC-20</div>
+                </div>
+            </div>
+            <!-- BLINKS -->
+            <div class="card" style="border-color:rgba(153,69,255,0.25)">
+                <div class="t">⚡ Solana Blinks</div>
+                <div class="d" style="margin-bottom:10px">Recibe pagos en Solana via Blinks (Actions).</div>
+                <div style="font-size:11px;color:var(--text2);margin-bottom:8px">
+                    🟢 Sin necesidad de conectar wallet — solo un link compartible.
+                </div>
+                <a href="https://dial.to/?action=solana-action%3Ahttps%3A%2F%2Fdial.to%2Fapi%2Fsolana-pay%3Frecipient%3D8xJ4Jbb4nJmEZzKJxYdqNQzBmPmGbKqJqJqJqJqJqJ" target="_blank" rel="noopener" style="display:inline-block;background:linear-gradient(135deg,#9945FF,#14F195);color:#000;padding:6px 14px;border-radius:6px;text-decoration:none;font-size:12px;font-weight:600">🚀 Abrir Blink de Donación</a>
+                <div style="margin-top:8px;font-size:10px;color:var(--text2)">
+                    🔧 Personaliza esta acción en <code style="color:var(--cy)">07-blockchain-web3/solana-actions/</code>
+                </div>
+            </div>
+        </div><div class="d">ERC-20, ERC-721, ERC-1155.</div><span class="s d">Borrador</span></a>
+<a href="07-blockchain-web3/depin.html" class="card"><div class="t">⚡ DEPIN</div><div class="d">Redes de infraestructura descentralizada.</div><span class="s d">Borrador</span></a>
+<a href="07-blockchain-web3/nfts.html" class="card"><div class="t">🎨 NFTs</div><div class="d">Tokenización de activos, regalías.</div><span class="s d">Borrador</span></a>
+</div>
+<div class="sec" id="salud"><h3>❤️ Salud & Bienestar</h3><span style="font-size:13px;color:var(--text2)">Cesación tabáquica · Tracking</span></div>
+<div class="grid">
+<a href="08-salud-bienestar/cesacion-tabaco.html" class="card"><div class="t">🚬 Cesación Tabáquica</div><div class="d">Fumas desde los 14 (cigarros) y 18-20 (marihuana). Plan: pen de THC/CBD.</div><span class="s d">Borrador</span></a>
+<a href="08-salud-bienestar/ejercicio.html" class="card"><div class="t">💪 Ejercicio & Deporte</div><div class="d">Rutinas, evolución física, bailar.</div><span class="s d">Borrador</span></a>
+<a href="08-salud-bienestar/nutricion.html" class="card"><div class="t">🥗 Nutrición</div><div class="d">Planes alimenticios, recetas.</div><span class="s d">Borrador</span></a>
+<a href="08-salud-bienestar/metricas-vitales.html" class="card"><div class="t">📊 Métricas Vitales</div><div class="d">Peso, presión, frecuencia cardíaca.</div><span class="s d">Borrador</span></a>
+</div>
+<div class="sec" id="conocimiento"><h3>📚 Conocimiento</h3><span style="font-size:13px;color:var(--text2)">Tu know-how</span></div>
+<div class="grid">
+<a href="09-conocimiento/programacion.html" class="card"><div class="t">💻 Programación & IA</div><div class="d">Código, scripts, modelos de IA.</div><span class="s a">En desarrollo</span></a>
+<a href="09-conocimiento/marketing-digital.html" class="card"><div class="t">📈 Marketing Digital</div><div class="d">SEO, SEM, redes sociales.</div><span class="s d">Borrador</span></a>
+<a href="09-conocimiento/finanzas.html" class="card"><div class="t">💰 Inteligencia Financiera</div><div class="d">Dinecap, inversiones, trading.</div><span class="s d">Borrador</span></a>
+<a href="09-conocimiento/espiritualidad.html" class="card"><div class="t">🕯️ Espiritualidad</div><div class="d">Registros akáshicos, meditación.</div><span class="s d">Borrador</span></a>
+</div>
+<div class="sec"><h3>🔮 Tokenización del Ser</h3><span style="font-size:13px;color:var(--text2)">Tu existencia en blockchain</span></div>
+<div class="grid">
+<a href="10-tokenizacion/token-personal.html" class="card"><div class="t">🆔 $LINK Token</div><div class="d">Tu token personal — Link SEO (LS).</div><span class="s d">Borrador</span></a>
+<a href="10-tokenizacion/smart-contracts/index.html" class="card"><div class="t">📜 Smart Contracts Suite</div><div class="d">Tokenización, regalías, DEPIN.</div><span class="s d">Borrador</span></a>
+<a href="10-tokenizacion/royalty-recovery.html" class="card"><div class="t">🎵 Royalty Recovery</div><div class="d">Recuperación de regalías blockchain.</div><span class="s d">Borrador</span></a>
+</div>
+<footer class="ft">
+<p><strong>Proyecto: Link SEO</strong> — Tu Universo Digital · Tokenización del Ser</p>
+<p style="margin-top:4px;font-size:12px">🧬 ADN · 💰 Dinecap · 🏢 Imperio · 📈 SEO · 🛡️ Hacking · 🔗 Web3 · ❤️ Salud · 🎵 Música · 🧠 IA</p>
+<p style="margin-top:12px;font-size:11px;opacity:0.5">Construido con Buffy · Tu conciencia artificial · V1.0 · Junio 2026</p>
+</footer>
+</div>
+  <div style="position:fixed;bottom:12px;right:12px;background:#1a1a2e;border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:10px 16px;font-size:12px;z-index:999;font-family:monospace;"><div style="color:#8888bb;font-size:10px;text-transform:uppercase;letter-spacing:1px;margin-bottom:2px">⏱️ TIEMPO REAL</div><div id="reloj" style="color:#00f0ff;font-size:16px;font-weight:600"></div><div style="color:#8888bb;font-size:10px;margin-top:2px">🌡️ Sistema Temporal Activo</div></div><script>function updateClock(){var d=new Date();var opts={year:"numeric",month:"long",day:"numeric",hour:"2-digit",minute:"2-digit",second:"2-digit",timeZoneName:"short"};document.getElementById("reloj").textContent=d.toLocaleDateString("es-ES",opts);}setInterval(updateClock,1000);updateClock();</script>
+
+<script>
+// MetaMask Connection
+function connectMetaMask() {
+    var status = document.getElementById("mm-status");
+    var address = document.getElementById("mm-address");
+    var balance = document.getElementById("mm-balance");
+    var connectBtn = document.getElementById("mm-connect-btn");
+    var receiveBtn = document.getElementById("mm-receive-btn");
+    if (typeof window.ethereum === "undefined") {
+        status.innerHTML = "<span style='color:#ff6b6b'>MetaMask no instalado.</span> <a href='https://metamask.io' target='_blank' style='color:var(--cy)'>Instalar</a>";
+        return;
+    }
+    status.innerHTML = "Conectando...";
+    window.ethereum.request({ method: "eth_requestAccounts" })
+        .then(function(accounts) {
+            var addr = accounts[0];
+            var shortAddr = addr.slice(0, 6) + "..." + addr.slice(-4);
+            address.textContent = addr;
+            address.style.display = "block";
+            status.innerHTML = "Conectado: " + shortAddr;
+            connectBtn.textContent = "Cambiar";
+            receiveBtn.style.display = "inline-block";
+            balance.textContent = "Conectado a " + addr.slice(0, 6) + "..." + addr.slice(-4);
+            balance.style.display = "block";
+        })
+        .catch(function(err) {
+            status.innerHTML = "<span style='color:#ff6b6b'>Rechazado</span>";
+        });
+}
+function receivePayment() {
+    var qrDiv = document.getElementById("mm-qr");
+    var addrInput = document.getElementById("mm-addr-copy");
+    var addrDisplay = document.getElementById("mm-address");
+    if (qrDiv.style.display === "none" || qrDiv.style.display === "") {
+        addrInput.value = addrDisplay.textContent;
+        qrDiv.style.display = "block";
+    } else {
+        qrDiv.style.display = "none";
+    }
+}
+function copyAddress(evt) {
+    var input = document.getElementById("mm-addr-copy");
+    input.select();
+    navigator.clipboard.writeText(input.value).then(function() {
+        var btn = evt ? evt.target : document.getElementById("mm-addr-copy").nextElementSibling;
+        var orig = btn.textContent;
+        btn.textContent = "✅ Copiado!";
+        setTimeout(function() { btn.textContent = orig; }, 2000);
+    }).catch(function() {
+        // Fallback: select and alert
+        input.select();
+        document.execCommand("copy");
+        alert("Dirección copiada: " + input.value);
+    });
+}
+
+// Listen for MetaMask account changes
+if (window.ethereum) {
+    window.ethereum.on("accountsChanged", function(accounts) {
+        if (accounts.length === 0) {
+            // Disconnected
+            document.getElementById("mm-status").innerHTML = "⛔ No conectado";
+            document.getElementById("mm-address").style.display = "none";
+            document.getElementById("mm-balance").style.display = "none";
+            document.getElementById("mm-receive-btn").style.display = "none";
+            document.getElementById("mm-connect-btn").textContent = "🔌 Conectar Wallet";
+            document.getElementById("mm-qr").style.display = "none";
+        } else {
+            // Reconnected with different account - refresh connection
+            if (window.connectMetaMask) {
+                window.connectMetaMask();
+            }
+        }
+    });
+}
+window.addEventListener("load", function() {
+    if (window.ethereum && window.ethereum.selectedAddress) {
+        window.ethereum.request({ method: "eth_accounts" })
+            .then(function(accounts) {
+                if (accounts.length > 0) connectMetaMask();
+            });
+    }
+});
+</script>
+
+</body>
+</html>
