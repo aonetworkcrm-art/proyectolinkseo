@@ -24,7 +24,7 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
 .card{background:rgba(0,0,0,0.35);border:1px solid var(--bd);border-radius:8px;padding:14px;text-decoration:none;color:inherit;display:block;transition:all 0.3s ease}
 .card:hover{background:rgba(0,0,0,0.5);border-color:rgba(0,255,65,0.2);transform:translateY(-2px);box-shadow:0 0 15px rgba(0,255,65,0.05)}
 .card .t{font-size:13px;font-weight:600;margin-bottom:4px;color:var(--grn)}
-.card .d{font-size:11px;color:var(--dim);line-height:1.5}
+.card .d{font-size:11px;color:var(--grn);line-height:1.5}
 .s{display:inline-block;margin-top:6px;font-size:10px;padding:2px 8px;border-radius:4px;background:rgba(255,255,255,0.03)}
 .s.d{background:rgba(239,68,68,0.08);color:var(--re)}
 .s.a{background:rgba(16,185,129,0.08);color:var(--gr)}
@@ -32,7 +32,7 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
 .ec{background:rgba(0,0,0,0.35);border:1px solid var(--bd);border-radius:6px;padding:12px;text-decoration:none;color:inherit;display:block;transition:all 0.3s ease}
 .ec:hover{background:rgba(0,0,0,0.5);border-color:rgba(0,255,65,0.2);transform:translateY(-2px);box-shadow:0 0 15px rgba(0,255,65,0.05)}
 .ec .n{font-size:12px;font-weight:600;color:var(--cy)}
-.ec .r{font-size:10px;color:var(--dim)}
+.ec .r{font-size:10px;color:var(--grn)}
 .tg{display:inline-block;margin-top:4px;font-size:9px;font-weight:600;text-transform:uppercase;padding:1px 6px;border-radius:4px}
 .t1{background:rgba(0,240,255,0.08);color:var(--cy)}
 .t2{background:rgba(245,158,11,0.08);color:var(--go)}
@@ -41,13 +41,13 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
 .t5{background:rgba(124,58,237,0.08);color:var(--pu)}
 .t6{background:rgba(16,185,129,0.08);color:var(--gr)}
 .qb{display:flex;gap:6px;flex-wrap:wrap;padding:8px 0}
-.qb a{padding:5px 12px;border-radius:6px;font-size:10px;background:rgba(0,0,0,0.3);border:1px solid var(--bd);color:var(--dim);text-decoration:none;transition:all 0.3s ease}
+.qb a{padding:5px 12px;border-radius:6px;font-size:10px;background:rgba(0,0,0,0.3);border:1px solid var(--bd);color:var(--grn);text-decoration:none;transition:all 0.3s ease}
 .qb a:hover{color:var(--grn);border-color:rgba(0,255,65,0.2)}
 .qb .p{background:rgba(0,240,255,0.06);border-color:rgba(0,240,255,0.12);color:var(--cy)}
-.ft{margin-top:40px;padding:16px 0;border-top:1px solid var(--bd);text-align:center;font-size:10px;color:var(--dim)}
+.ft{margin-top:40px;padding:16px 0;border-top:1px solid var(--bd);text-align:center;font-size:10px;color:var(--grn)}
 .ft strong{color:var(--grn)}
 .clock-box{position:fixed;bottom:10px;right:10px;background:rgba(0,0,0,0.7);border:1px solid rgba(0,255,65,0.15);border-radius:4px;padding:8px 12px;z-index:999;font-family:'Courier New',monospace}
-.clock-box .cl{color:var(--dim);font-size:8px;text-transform:uppercase;letter-spacing:1px}
+.clock-box .cl{color:var(--grn);font-size:8px;text-transform:uppercase;letter-spacing:1px}
 .clock-box .cl-val{color:var(--cy);font-size:13px;font-weight:600}
 .glitch{position:relative}
 .glitch::before,.glitch::after{content:attr(data-text);position:absolute;top:0;left:0;width:100%;height:100%;opacity:0}
@@ -59,7 +59,7 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
 .badge .dot{width:5px;height:5px;border-radius:50%;background:var(--gr);animation:pulseBadge 2s ease-in-out infinite}
 @keyframes pulseBadge{0%,100%{opacity:1}50%{opacity:0.3}}
 @media(max-width:768px){.app{padding:12px}.hdr{flex-direction:column;text-align:center}.grid{grid-template-columns:1fr}}
-.terminal-text{font-size:10px;color:var(--dim);text-align:center;margin-bottom:8px;letter-spacing:1px}
+.terminal-text{font-size:10px;color:var(--grn);text-align:center;margin-bottom:8px;letter-spacing:1px}
 .terminal-text .cursor{display:inline-block;width:8px;height:14px;background:var(--grn);animation:blink 1s step-end infinite;vertical-align:middle;margin-left:4px}
 @keyframes blink{50%{opacity:0}}
 </style>
@@ -76,10 +76,10 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
 
 <div class="app">
 <header class="hdr">
-<div><div style="font-size:9px;color:var(--grn);text-transform:uppercase;letter-spacing:2px"><span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--grn);margin-right:4px;animation:pulseBadge 2s ease-in-out infinite"></span> DASHBOARD CENTRAL · LINK SEO</div><h1 style="font-size:18px;font-weight:700;margin-top:4px;background:linear-gradient(135deg,var(--grn),var(--cy));-webkit-background-clip:text;-webkit-text-fill-color:transparent">🌌 Proyecto: Link SEO</h1><div style="font-size:10px;color:var(--dim)">Tu Universo Digital · Tokenización del Ser</div></div>
+<div><div style="font-size:9px;color:var(--grn);text-transform:uppercase;letter-spacing:2px"><span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--grn);margin-right:4px;animation:pulseBadge 2s ease-in-out infinite"></span> DASHBOARD CENTRAL · LINK SEO</div><h1 style="font-size:18px;font-weight:700;margin-top:4px;background:linear-gradient(135deg,var(--grn),var(--cy));-webkit-background-clip:text;-webkit-text-fill-color:transparent">🌌 Proyecto: Link SEO</h1><div style="font-size:10px;color:var(--grn)">Tu Universo Digital · Tokenización del Ser</div></div>
 <div style="display:flex;gap:20px;align-items:center">
-<div style="text-align:center"><div style="font-size:22px;font-weight:700;color:var(--cy)">11</div><div style="font-size:11px;color:var(--dim);text-transform:uppercase">Módulos</div></div>
-<div style="text-align:center"><div style="font-size:22px;font-weight:700;color:var(--cy)">12</div><div style="font-size:11px;color:var(--dim);text-transform:uppercase">Empresas</div></div>
+<div style="text-align:center"><div style="font-size:22px;font-weight:700;color:var(--cy)">11</div><div style="font-size:11px;color:var(--grn);text-transform:uppercase">Módulos</div></div>
+<div style="text-align:center"><div style="font-size:22px;font-weight:700;color:var(--cy)">12</div><div style="font-size:11px;color:var(--grn);text-transform:uppercase">Empresas</div></div>
 <div class="badge"><span class="dot"></span>Sistema activo</div>
 </div>
 </header>
@@ -106,26 +106,26 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
 <a href="#conocimiento">📚 Conocimiento</a>
 <a href="#marketing">📊 Marketing</a>
 </div>
-<div class="sec" id="nucleo"><h3>🧬 Núcleo Personal</h3><span style="font-size:13px;color:var(--dim)">Tu esencia digitalizada</span></div>
+<div class="sec" id="nucleo"><h3>🧬 Núcleo Personal</h3><span style="font-size:13px;color:var(--grn)">Tu esencia digitalizada</span></div>
 <div class="grid">
 <a href="01-nucleo-personal/perfil-general.html" class="card"><div class="t">👤 Perfil General</div><div class="d">Nombre, sangre, descendencia. Signos: Acuario (actual) · Capricornio (Aciocus). Ascendente Piscis. Registros akáshicos.</div><span class="s d">Borrador</span></a>
 <a href="01-nucleo-personal/salud-biometria.html" class="card"><div class="t">❤️ Salud & Biometría</div><div class="d">Órganos, cuerpo, capas, neuronas, pelo, piel. Tracking integral.</div><span class="s d">Borrador</span></a>
 <a href="01-nucleo-personal/genealogia.html" class="card"><div class="t">🌳 Árbol Genealógico</div><div class="d">Padres: Ramón Martínez "Mochy" y Nicolasa Vargas "Rosmery". Hijos: 15, 8 y 6 años. Pareja. Ascendencia.</div><span class="s d">Borrador</span></a>
 <a href="01-nucleo-personal/astrologia.html" class="card"><div class="t">♒ Astrología & Espiritualidad</div><div class="d">Acuario (actual) · Capricornio/Piscis (Aciocus) · Ascendente. Registros akáshicos.</div><span class="s d">Borrador</span></a>
 </div>
-<div class="sec" id="finanzas"><h3>💰 Finanzas — Dinecap</h3><span style="font-size:13px;color:var(--dim)">4 colchones · 25% cada uno</span></div>
+<div class="sec" id="finanzas"><h3>💰 Finanzas — Dinecap</h3><span style="font-size:13px;color:var(--grn)">4 colchones · 25% cada uno</span></div>
 <div class="grid">
 <a href="02-finanzas/colchon-ocio.html" class="card"><div class="t">🎮 Colchón 1: Ocio</div><div class="d">25% — Viajar, experiencias, ensayar, bailar, conciertos.</div><span class="s d">Borrador</span></a>
 <a href="02-finanzas/colchon-ahorros.html" class="card"><div class="t">🏦 Colchón 2: Ahorros</div><div class="d">25% — Ahorro sistemático, metas financieras.</div><span class="s d">Borrador</span></a>
 <a href="02-finanzas/colchon-inversion.html" class="card"><div class="t">📈 Colchón 3: Inversión</div><div class="d">25% — Inversiones, trading, cripto, bienes raíces.</div><span class="s d">Borrador</span></a>
 <a href="02-finanzas/colchon-emergencia.html" class="card"><div class="t">🛡️ Colchón 4: Caja Fuerte</div><div class="d">25% — Fondo de emergencia, seguridad financiera.</div><span class="s d">Borrador</span></a>
 </div>
-<div class="sec"><h3>👨‍👩‍👧‍👦 Familia</h3><span style="font-size:13px;color:var(--dim)">Tu legado vivo</span></div>
+<div class="sec"><h3>👨‍👩‍👧‍👦 Familia</h3><span style="font-size:13px;color:var(--grn)">Tu legado vivo</span></div>
 <div class="grid">
 <a href="03-familia/arbol-familiar.html" class="card"><div class="t">🌳 Árbol Familiar</div><div class="d">Tú, pareja, 3 hijos (15, 8 y 6 años). Padres: Ramón Martínez y Nicolasa Vargas.</div><span class="s d">Borrador</span></a>
 <a href="03-familia/herederos.html" class="card"><div class="t">👑 Legado & Herencia</div><div class="d">Sucesión digital, tokenización del legado para tus hijos.</div><span class="s d">Borrador</span></a>
 </div>
-<div class="sec" id="empresas"><h3>🏢 Imperio Empresarial</h3><span style="font-size:13px;color:var(--dim)">12 empresas · 1 visión</span></div>
+<div class="sec" id="empresas"><h3>🏢 Imperio Empresarial</h3><span style="font-size:13px;color:var(--grn)">12 empresas · 1 visión</span></div>
 <div class="eg">
 <a href="04-empresas/scaling-flow/index.html" class="ec"><div class="n">⚡ Scaling Flow IA</div><div class="r">Marketing Intelligence</div><span class="tg t1">IA</span><span class="tg t2" style="margin-left:4px">Marketing</span></a>
 <a href="04-empresas/nuclear-aima/index.html" class="ec"><div class="n">☢️ Nuclear AIMA</div><div class="r">Infraestructura Digital</div><span class="tg t1">IA</span><span class="tg t2" style="margin-left:4px">SEO</span></a>
@@ -140,19 +140,19 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
 <a href="04-empresas/smm-app/index.html" class="ec"><div class="n">📱 SMM App</div><div class="r">Social Media Mgmt</div><span class="tg t2">Marketing</span></a>
 <a href="04-empresas/nuclear-aima/cotizador.html" class="ec" style="border-color:rgba(0,240,255,0.15)"><div class="n">📊 Cotizador Nuclear</div><div class="r">Presupuestos · Ventas</div><span class="tg t1">Tool</span></a>
 </div>
-<div class="sec" id="marketing"><h3>📊 Marketing & SEO</h3><span style="font-size:13px;color:var(--dim)">Tráfico masivo · Embudos</span></div>
+<div class="sec" id="marketing"><h3>📊 Marketing & SEO</h3><span style="font-size:13px;color:var(--grn)">Tráfico masivo · Embudos</span></div>
 <div class="grid">
 <a href="05-marketing-seo/seo-semantico.html" class="card"><div class="t">🔍 SEO Semántico</div><div class="d">Tokens de búsqueda, clusters semánticos, tráfico avalancha.</div><span class="s d">Borrador</span></a>
 <a href="05-marketing-seo/embudos-ventas.html" class="card"><div class="t">🔻 Embudos de Ventas</div><div class="d">Funnels, captación, conversión, upsells.</div><span class="s d">Borrador</span></a>
 <a href="05-marketing-seo/automatizaciones.html" class="card"><div class="t">🤖 Automatizaciones</div><div class="d">Redes sociales, streaming, scheduling masivo.</div><span class="s d">Borrador</span></a>
 </div>
-<div class="sec" id="hacking"><h3>🛡️ Hacking Ético & OSINT</h3><span style="font-size:13px;color:var(--dim)">Inteligencia · Extracción · Valor</span></div>
+<div class="sec" id="hacking"><h3>🛡️ Hacking Ético & OSINT</h3><span style="font-size:13px;color:var(--grn)">Inteligencia · Extracción · Valor</span></div>
 <div class="grid">
 <a href="06-hacking-osint/osint-engine.html" class="card"><div class="t">🕵️ OSINT Engine</div><div class="d">Extracción de datos, inteligencia abierta.</div><span class="s a">Con datos</span></a>
 <a href="06-hacking-osint/bots-mev.html" class="card"><div class="t">🤖 Bots MEV</div><div class="d">Maximum Extractable Value, arbitraje.</div><span class="s d">Borrador</span></a>
 <a href="06-hacking-osint/herramientas/index.html" class="card"><div class="t">⚙️ Toolkit</div><div class="d">Herramientas, scripts, checkers.</div><span class="s a">Activo</span></a>
 </div>
-<div class="sec" id="blockchain"><h3>🔗 Blockchain & Web3</h3><span style="font-size:13px;color:var(--dim)">Smart Contracts · DEPIN · Tokenización</span></div>
+<div class="sec" id="blockchain"><h3>🔗 Blockchain & Web3</h3><span style="font-size:13px;color:var(--grn)">Smart Contracts · DEPIN · Tokenización</span></div>
         <div class="grid">
             <a href="07-blockchain-web3/smart-contracts/" class="card">
                 <div class="t">📜 Smart Contracts</div>
@@ -170,13 +170,13 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
             <div class="card" style="border-color:rgba(246,133,27,0.25)">
                 <div class="t">🦊 MetaMask</div>
                 <div class="d" style="margin-bottom:10px">Conecta tu wallet Ethereum para recibir pagos.</div>
-                <div id="mm-status" style="font-size:12px;color:var(--dim);margin-bottom:8px">⛔ No conectado</div>
+                <div id="mm-status" style="font-size:12px;color:var(--grn);margin-bottom:8px">⛔ No conectado</div>
                 <div id="mm-address" style="font-size:10px;color:var(--cy);font-family:monospace;word-break:break-all;margin-bottom:10px;display:none"></div>
-                <div id="mm-balance" style="font-size:11px;color:var(--dim);margin-bottom:10px;display:none"></div>
+                <div id="mm-balance" style="font-size:11px;color:var(--grn);margin-bottom:10px;display:none"></div>
                 <button id="mm-connect-btn" onclick="connectMetaMask()" style="background:var(--accent);color:#000;border:none;padding:6px 14px;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600;margin-right:6px">🔌 Conectar Wallet</button>
                 <button id="mm-receive-btn" onclick="receivePayment()" style="background:transparent;color:var(--cy);border:1px solid var(--cy);padding:6px 14px;border-radius:6px;cursor:pointer;font-size:12px;display:none">💳 Recibir Pago</button>
                 <div id="mm-qr" style="margin-top:10px;display:none">
-                    <div style="font-size:11px;color:var(--dim);margin-bottom:6px">Escanea o copia la dirección para recibir:</div>
+                    <div style="font-size:11px;color:var(--grn);margin-bottom:6px">Escanea o copia la dirección para recibir:</div>
                     <div style="display:flex;gap:6px;align-items:center">
                         <input id="mm-addr-copy" type="text" readonly style="flex:1;background:var(--card);color:var(--cy);border:1px solid rgba(0,240,255,0.2);border-radius:4px;padding:5px 8px;font-size:11px;font-family:monospace">
                         <button onclick="copyAddress(event)" style="background:var(--cy);color:#000;border:none;padding:5px 10px;border-radius:4px;cursor:pointer;font-size:11px;font-weight:600">📋 Copiar</button>
@@ -188,11 +188,11 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
             <div class="card" style="border-color:rgba(153,69,255,0.25)">
                 <div class="t">⚡ Solana Blinks</div>
                 <div class="d" style="margin-bottom:10px">Recibe pagos en Solana via Blinks (Actions).</div>
-                <div style="font-size:11px;color:var(--dim);margin-bottom:8px">
+                <div style="font-size:11px;color:var(--grn);margin-bottom:8px">
                     🟢 Sin necesidad de conectar wallet — solo un link compartible.
                 </div>
                 <a href="https://dial.to/?action=solana-action%3Ahttps%3A%2F%2Fdial.to%2Fapi%2Fsolana-pay%3Frecipient%3D8xJ4Jbb4nJmEZzKJxYdqNQzBmPmGbKqJqJqJqJqJqJ" target="_blank" rel="noopener" style="display:inline-block;background:linear-gradient(135deg,#9945FF,#14F195);color:#000;padding:6px 14px;border-radius:6px;text-decoration:none;font-size:12px;font-weight:600">🚀 Abrir Blink de Donación</a>
-                <div style="margin-top:8px;font-size:10px;color:var(--dim)">
+                <div style="margin-top:8px;font-size:10px;color:var(--grn)">
                     🔧 Personaliza esta acción en <code style="color:var(--cy)">07-blockchain-web3/solana-actions/</code>
                 </div>
             </div>
@@ -200,21 +200,21 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
 <a href="07-blockchain-web3/depin.html" class="card"><div class="t">⚡ DEPIN</div><div class="d">Redes de infraestructura descentralizada.</div><span class="s d">Borrador</span></a>
 <a href="07-blockchain-web3/nfts.html" class="card"><div class="t">🎨 NFTs</div><div class="d">Tokenización de activos, regalías.</div><span class="s d">Borrador</span></a>
 </div>
-<div class="sec" id="salud"><h3>❤️ Salud & Bienestar</h3><span style="font-size:13px;color:var(--dim)">Cesación tabáquica · Tracking</span></div>
+<div class="sec" id="salud"><h3>❤️ Salud & Bienestar</h3><span style="font-size:13px;color:var(--grn)">Cesación tabáquica · Tracking</span></div>
 <div class="grid">
 <a href="08-salud-bienestar/cesacion-tabaco.html" class="card"><div class="t">🚬 Cesación Tabáquica</div><div class="d">Fumas desde los 14 (cigarros) y 18-20 (marihuana). Plan: pen de THC/CBD.</div><span class="s d">Borrador</span></a>
 <a href="08-salud-bienestar/ejercicio.html" class="card"><div class="t">💪 Ejercicio & Deporte</div><div class="d">Rutinas, evolución física, bailar.</div><span class="s d">Borrador</span></a>
 <a href="08-salud-bienestar/nutricion.html" class="card"><div class="t">🥗 Nutrición</div><div class="d">Planes alimenticios, recetas.</div><span class="s d">Borrador</span></a>
 <a href="08-salud-bienestar/metricas-vitales.html" class="card"><div class="t">📊 Métricas Vitales</div><div class="d">Peso, presión, frecuencia cardíaca.</div><span class="s d">Borrador</span></a>
 </div>
-<div class="sec" id="conocimiento"><h3>📚 Conocimiento</h3><span style="font-size:13px;color:var(--dim)">Tu know-how</span></div>
+<div class="sec" id="conocimiento"><h3>📚 Conocimiento</h3><span style="font-size:13px;color:var(--grn)">Tu know-how</span></div>
 <div class="grid">
 <a href="09-conocimiento/programacion.html" class="card"><div class="t">💻 Programación & IA</div><div class="d">Código, scripts, modelos de IA.</div><span class="s a">En desarrollo</span></a>
 <a href="09-conocimiento/marketing-digital.html" class="card"><div class="t">📈 Marketing Digital</div><div class="d">SEO, SEM, redes sociales.</div><span class="s d">Borrador</span></a>
 <a href="09-conocimiento/finanzas.html" class="card"><div class="t">💰 Inteligencia Financiera</div><div class="d">Dinecap, inversiones, trading.</div><span class="s d">Borrador</span></a>
 <a href="09-conocimiento/espiritualidad.html" class="card"><div class="t">🕯️ Espiritualidad</div><div class="d">Registros akáshicos, meditación.</div><span class="s d">Borrador</span></a>
 </div>
-<div class="sec"><h3>🔮 Tokenización del Ser</h3><span style="font-size:13px;color:var(--dim)">Tu existencia en blockchain</span></div>
+<div class="sec"><h3>🔮 Tokenización del Ser</h3><span style="font-size:13px;color:var(--grn)">Tu existencia en blockchain</span></div>
 <div class="grid">
 <a href="10-tokenizacion/token-personal.html" class="card"><div class="t">🆔 $LINK Token</div><div class="d">Tu token personal — Link SEO (LS).</div><span class="s d">Borrador</span></a>
 <a href="10-tokenizacion/smart-contracts/index.html" class="card"><div class="t">📜 Smart Contracts Suite</div><div class="d">Tokenización, regalías, DEPIN.</div><span class="s d">Borrador</span></a>
@@ -235,7 +235,7 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
 <div class="clock-box">
   <div class="cl">⏱ SISTEMA TEMPORAL</div>
   <div class="cl-val" id="reloj"></div>
-  <div style="color:var(--dim);font-size:9px;margin-top:2px">🌡️ Activo</div>
+  <div style="color:var(--grn);font-size:9px;margin-top:2px">🌡️ Activo</div>
 </div>
 <script>function updateClock(){var d=new Date();var opts={year:"numeric",month:"long",day:"numeric",hour:"2-digit",minute:"2-digit",second:"2-digit",timeZoneName:"short"};document.getElementById("reloj").textContent=d.toLocaleDateString("es-ES",opts);}setInterval(updateClock,1000);updateClock();</script>
 
