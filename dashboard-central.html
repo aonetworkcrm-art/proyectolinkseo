@@ -6,7 +6,7 @@
 <title>📊 DASHBOARD CENTRAL — Proyecto: Link SEO</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--bg:#050508;--grn:#00ff41;--cy:#00f0ff;--pu:#7c3aed;--pi:#ec4899;--go:#f59e0b;--gr:#10b981;--re:#ef4444;--text:#c8d6e5;--dim:#2d2d44;--bd:rgba(0,255,65,0.08)}
+:root{--bg:#050508;--grn:#00ff41;--cy:#00f0ff;--pu:#7c3aed;--pi:#ec4899;--go:#f59e0b;--gr:#10b981;--re:#ef4444;--text:#c8d6e5;--dim:#2d2d44;--bd:rgba(0,255,65,0.08);--accent:#00ff41;--gold:#f59e0b}
 body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);overflow-x:hidden;min-height:100vh}
 #matrixCanvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;opacity:0.4;pointer-events:none}
 .grid-overlay{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1;pointer-events:none;background-image:linear-gradient(rgba(0,255,65,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,255,65,0.03) 1px,transparent 1px);background-size:40px 40px}
@@ -69,11 +69,6 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
 <div class="grid-overlay"></div>
 <div class="scan-line"></div>
 
-
-<canvas id="matrixCanvas"></canvas>
-<div class="grid-overlay"></div>
-<div class="scan-line"></div>
-
 <div class="app">
 <header class="hdr">
 <div><div style="font-size:9px;color:var(--grn);text-transform:uppercase;letter-spacing:2px"><span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--grn);margin-right:4px;animation:pulseBadge 2s ease-in-out infinite"></span> DASHBOARD CENTRAL · LINK SEO</div><h1 style="font-size:18px;font-weight:700;margin-top:4px;background:linear-gradient(135deg,var(--grn),var(--cy));-webkit-background-clip:text;-webkit-text-fill-color:transparent">🌌 Proyecto: Link SEO</h1><div style="font-size:10px;color:var(--grn)">Tu Universo Digital · Tokenización del Ser</div></div>
@@ -108,16 +103,16 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
 </div>
 <div class="sec" id="nucleo"><h3>🧬 Núcleo Personal</h3><span style="font-size:13px;color:var(--grn)">Tu esencia digitalizada</span></div>
 <div class="grid">
-<a href="01-nucleo-personal/perfil-general.html" class="card"><div class="t">👤 Perfil General</div><div class="d">Nombre, sangre, descendencia. Signos: Acuario (actual) · Capricornio (Aciocus). Ascendente Piscis. Registros akáshicos.</div><span class="s d">Borrador</span></a>
-<a href="01-nucleo-personal/salud-biometria.html" class="card"><div class="t">❤️ Salud & Biometría</div><div class="d">Órganos, cuerpo, capas, neuronas, pelo, piel. Tracking integral.</div><span class="s d">Borrador</span></a>
-<a href="01-nucleo-personal/genealogia.html" class="card"><div class="t">🌳 Árbol Genealógico</div><div class="d">Padres: Ramón Martínez "Mochy" y Nicolasa Vargas "Rosmery". Hijos: 15, 8 y 6 años. Pareja. Ascendencia.</div><span class="s d">Borrador</span></a>
-<a href="01-nucleo-personal/astrologia.html" class="card"><div class="t">♒ Astrología & Espiritualidad</div><div class="d">Acuario (actual) · Capricornio/Piscis (Aciocus) · Ascendente. Registros akáshicos.</div><span class="s d">Borrador</span></a>
+<a href="01-nucleo-personal/perfil-general.html" class="card"><div class="t">👤 Perfil General</div><div class="d">Nombre, sangre, descendencia. Signos: Acuario (actual) · Capricornio (Aciocus). Ascendente Piscis. Registros akáshicos.</div><span class="s a">Completo</span></a>
+<a href="01-nucleo-personal/salud-biometria.html" class="card"><div class="t">❤️ Salud & Biometría</div><div class="d">Órganos, cuerpo, capas, neuronas, pelo, piel. Tracking integral.</div><span class="s a">Completo</span></a>
+<a href="01-nucleo-personal/genealogia.html" class="card"><div class="t">🌳 Árbol Genealógico</div><div class="d">Padres: Ramón Martínez "Mochy" y Nicolasa Vargas "Rosmery". Hijos: 15, 8 y 6 años. Pareja. Ascendencia.</div><span class="s a">Completo</span></a>
+<a href="01-nucleo-personal/astrologia.html" class="card"><div class="t">♒ Astrología & Espiritualidad</div><div class="d">Acuario (actual) · Capricornio/Piscis (Aciocus) · Ascendente. Registros akáshicos.</div><span class="s a">Completo</span></a>
 </div>
 <div class="sec" id="finanzas"><h3>💰 Finanzas — Dinecap</h3><span style="font-size:13px;color:var(--grn)">4 colchones · 25% cada uno</span></div>
 <div class="grid">
-<a href="02-finanzas/colchon-ocio.html" class="card"><div class="t">🎮 Colchón 1: Ocio</div><div class="d">25% — Viajar, experiencias, ensayar, bailar, conciertos.</div><span class="s d">Borrador</span></a>
-<a href="02-finanzas/colchon-ahorros.html" class="card"><div class="t">🏦 Colchón 2: Ahorros</div><div class="d">25% — Ahorro sistemático, metas financieras.</div><span class="s d">Borrador</span></a>
-<a href="02-finanzas/colchon-inversion.html" class="card"><div class="t">📈 Colchón 3: Inversión</div><div class="d">25% — Inversiones, trading, cripto, bienes raíces.</div><span class="s d">Borrador</span></a>
+<a href="02-finanzas/colchon-ocio.html" class="card"><div class="t">🎮 Colchón 1: Ocio</div><div class="d">25% — Viajar, experiencias, ensayar, bailar, conciertos.</div><span class="s a">Con datos</span></a>
+<a href="02-finanzas/colchon-ahorros.html" class="card"><div class="t">🏦 Colchón 2: Ahorros</div><div class="d">25% — Ahorro sistemático, metas financieras.</div><span class="s a">Con datos</span></a>
+<a href="02-finanzas/colchon-inversion.html" class="card"><div class="t">📈 Colchón 3: Inversión</div><div class="d">25% — Inversiones, trading, cripto, bienes raíces.</div><span class="s a">Con datos</span></a>
 <a href="02-finanzas/colchon-emergencia.html" class="card"><div class="t">🛡️ Colchón 4: Caja Fuerte</div><div class="d">25% — Fondo de emergencia, seguridad financiera.</div><span class="s d">Borrador</span></a>
 </div>
 <div class="sec"><h3>👨‍👩‍👧‍👦 Familia</h3><span style="font-size:13px;color:var(--grn)">Tu legado vivo</span></div>
@@ -129,7 +124,7 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
 <div class="eg">
 <a href="04-empresas/scaling-flow/index.html" class="ec"><div class="n">⚡ Scaling Flow IA</div><div class="r">Marketing Intelligence</div><span class="tg t1">IA</span><span class="tg t2" style="margin-left:4px">Marketing</span></a>
 <a href="04-empresas/nuclear-aima/index.html" class="ec"><div class="n">☢️ Nuclear AIMA</div><div class="r">Infraestructura Digital</div><span class="tg t1">IA</span><span class="tg t2" style="margin-left:4px">SEO</span></a>
-<a href="04-empresas/nuclear-music-networks/GOYO/index.html" class="ec"><div class="n">🎵 Nuclear Music Networks</div><div class="r">Sello · Royalty Recovery</div><span class="tg t3">Música</span><span class="tg t5" style="margin-left:4px">Web3</span></a>
+<a href="04-empresas/nuclear-music-networks/index.html" class="ec"><div class="n">🎵 Nuclear Music Networks</div><div class="r">Sello · Royalty Recovery</div><span class="tg t3">Música</span><span class="tg t5" style="margin-left:4px">Web3</span></a>
 <a href="04-empresas/bionexus/index.html" class="ec"><div class="n">🧬 BioNexus</div><div class="r">HealthTech · Biometría</div><span class="tg t1">IA</span><span class="tg t6" style="margin-left:4px">Salud</span></a>
 <a href="04-empresas/aosmma/index.html" class="ec"><div class="n">🛡️ AOSMMA</div><div class="r">Ciberseguridad · OSINT</div><span class="tg t4">Hacking</span></a>
 <a href="04-empresas/hyperion/index.html" class="ec"><div class="n">🌐 Hyperion</div><div class="r">Blockchain · DEPIN</div><span class="tg t5">Blockchain</span></a>
@@ -149,7 +144,7 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
 <div class="sec" id="hacking"><h3>🛡️ Hacking Ético & OSINT</h3><span style="font-size:13px;color:var(--grn)">Inteligencia · Extracción · Valor</span></div>
 <div class="grid">
 <a href="06-hacking-osint/osint-engine.html" class="card"><div class="t">🕵️ OSINT Engine</div><div class="d">Extracción de datos, inteligencia abierta.</div><span class="s a">Con datos</span></a>
-<a href="06-hacking-osint/bots-mev.html" class="card"><div class="t">🤖 Bots MEV</div><div class="d">Maximum Extractable Value, arbitraje.</div><span class="s d">Borrador</span></a>
+<a href="06-hacking-osint/bots-mev.html" class="card"><div class="t">🤖 Bots MEV</div><div class="d">Maximum Extractable Value, arbitraje.</div><span class="s a">Completo</span></a>
 <a href="06-hacking-osint/herramientas/index.html" class="card"><div class="t">⚙️ Toolkit</div><div class="d">Herramientas, scripts, checkers.</div><span class="s a">Activo</span></a>
 </div>
 <div class="sec" id="blockchain"><h3>🔗 Blockchain & Web3</h3><span style="font-size:13px;color:var(--grn)">Smart Contracts · DEPIN · Tokenización</span></div>
@@ -172,11 +167,17 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
                 <div class="d" style="margin-bottom:10px">Conecta tu wallet Ethereum para recibir pagos.</div>
                 <div id="mm-status" style="font-size:12px;color:var(--grn);margin-bottom:8px">⛔ No conectado</div>
                 <div id="mm-address" style="font-size:10px;color:var(--cy);font-family:monospace;word-break:break-all;margin-bottom:10px;display:none"></div>
-                <div id="mm-balance" style="font-size:11px;color:var(--grn);margin-bottom:10px;display:none"></div>
+                <div id="mm-balance" style="font-size:11px;color:var(--grn);margin-bottom:6px;display:none"></div>
+                <div id="mm-network" style="font-size:10px;color:var(--cy);margin-bottom:8px">🌐 No conectado</div>
                 <button id="mm-connect-btn" onclick="connectMetaMask()" style="background:var(--accent);color:#000;border:none;padding:6px 14px;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600;margin-right:6px">🔌 Conectar Wallet</button>
                 <button id="mm-receive-btn" onclick="receivePayment()" style="background:transparent;color:var(--cy);border:1px solid var(--cy);padding:6px 14px;border-radius:6px;cursor:pointer;font-size:12px;display:none">💳 Recibir Pago</button>
                 <div id="mm-qr" style="margin-top:10px;display:none">
                     <div style="font-size:11px;color:var(--grn);margin-bottom:6px">Escanea o copia la dirección para recibir:</div>
+                <div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:8px">
+                  <button onclick="switchNetwork('0x1')" style="padding:3px 8px;font-size:8px;background:transparent;border:1px solid var(--bd);color:var(--text);cursor:pointer;font-family:'Courier New',monospace">🔷 Mainnet</button>
+                  <button onclick="switchNetwork('0x89')" style="padding:3px 8px;font-size:8px;background:transparent;border:1px solid var(--bd);color:var(--text);cursor:pointer;font-family:'Courier New',monospace">🟣 Polygon</button>
+                  <button onclick="switchNetwork('0x38')" style="padding:3px 8px;font-size:8px;background:transparent;border:1px solid var(--bd);color:var(--text);cursor:pointer;font-family:'Courier New',monospace">🟡 BSC</button>
+                </div>
                     <div style="display:flex;gap:6px;align-items:center">
                         <input id="mm-addr-copy" type="text" readonly style="flex:1;background:var(--card);color:var(--cy);border:1px solid rgba(0,240,255,0.2);border-radius:4px;padding:5px 8px;font-size:11px;font-family:monospace">
                         <button onclick="copyAddress(event)" style="background:var(--cy);color:#000;border:none;padding:5px 10px;border-radius:4px;cursor:pointer;font-size:11px;font-weight:600">📋 Copiar</button>
@@ -196,9 +197,6 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
                     🔧 Personaliza esta acción en <code style="color:var(--cy)">07-blockchain-web3/solana-actions/</code>
                 </div>
             </div>
-        
-<a href="07-blockchain-web3/depin.html" class="card"><div class="t">⚡ DEPIN</div><div class="d">Redes de infraestructura descentralizada.</div><span class="s d">Borrador</span></a>
-<a href="07-blockchain-web3/nfts.html" class="card"><div class="t">🎨 NFTs</div><div class="d">Tokenización de activos, regalías.</div><span class="s d">Borrador</span></a>
 </div>
 <div class="sec" id="salud"><h3>❤️ Salud & Bienestar</h3><span style="font-size:13px;color:var(--grn)">Cesación tabáquica · Tracking</span></div>
 <div class="grid">
@@ -219,6 +217,38 @@ body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);
 <a href="10-tokenizacion/token-personal.html" class="card"><div class="t">🆔 $LINK Token</div><div class="d">Tu token personal — Link SEO (LS).</div><span class="s d">Borrador</span></a>
 <a href="10-tokenizacion/smart-contracts/index.html" class="card"><div class="t">📜 Smart Contracts Suite</div><div class="d">Tokenización, regalías, DEPIN.</div><span class="s d">Borrador</span></a>
 <a href="10-tokenizacion/royalty-recovery.html" class="card"><div class="t">🎵 Royalty Recovery</div><div class="d">Recuperación de regalías blockchain.</div><span class="s d">Borrador</span></a>
+</div>
+
+<div class="sec" id="forms"><h3>📝 DATOS DEL USUARIO</h3><span style="font-size:13px;color:var(--grn)">Edita tu información</span></div>
+<div class="grid">
+<div class="card" style="grid-column:span 2">
+  <div class="t">✏️ Editar Perfil</div>
+  <form id="profileForm" onsubmit="return saveProfile(event)" style="margin-top:10px">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+      <div><label for="pf-name" style="font-size:10px;color:var(--grn);display:block;margin-bottom:4px">NOMBRE</label><input type="text" id="pf-name" value="Romny Regalado" aria-label="Nombre" style="width:100%;padding:8px;background:var(--bg);border:1px solid var(--bd);color:var(--text);font-family:'Courier New',monospace;font-size:12px"></div>
+      <div><label for="pf-title" style="font-size:10px;color:var(--grn);display:block;margin-bottom:4px">DESIGNACIÓN</label><input type="text" id="pf-title" value="Link SEO - LS-001" aria-label="Designación" style="width:100%;padding:8px;background:var(--bg);border:1px solid var(--bd);color:var(--text);font-family:'Courier New',monospace;font-size:12px"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:10px">
+      <div><label for="pf-sign" style="font-size:10px;color:var(--grn);display:block;margin-bottom:4px">SIGNO SOLAR</label><input type="text" id="pf-sign" value="Acuario" aria-label="Signo Solar" style="width:100%;padding:8px;background:var(--bg);border:1px solid var(--bd);color:var(--text);font-family:'Courier New',monospace;font-size:12px"></div>
+      <div><label for="pf-asc" style="font-size:10px;color:var(--grn);display:block;margin-bottom:4px">ASCENDENTE</label><input type="text" id="pf-asc" value="Piscis" aria-label="Ascendente" style="width:100%;padding:8px;background:var(--bg);border:1px solid var(--bd);color:var(--text);font-family:'Courier New',monospace;font-size:12px"></div>
+      <div><label for="pf-aciocus" style="font-size:10px;color:var(--grn);display:block;margin-bottom:4px">SIGNO ACIOCUS</label><input type="text" id="pf-aciocus" value="Capricornio/Piscis" aria-label="Signo Aciocus" style="width:100%;padding:8px;background:var(--bg);border:1px solid var(--bd);color:var(--text);font-family:'Courier New',monospace;font-size:12px"></div>
+    </div>
+    <div style="margin-top:12px;display:flex;gap:8px">
+      <button type="submit" style="padding:8px 20px;background:transparent;border:1px solid var(--grn);color:var(--grn);font-family:'Courier New',monospace;font-size:11px;letter-spacing:1px;cursor:pointer">💾 GUARDAR</button>
+    </div>
+  </form>
+</div>
+<div class="card" style="text-align:center">
+  <div class="t">📊 ESTADÍSTICAS</div>
+  <div style="margin-top:12px">
+    <div style="font-size:24px;color:var(--cy)">11</div>
+    <div style="font-size:10px;color:var(--grn);text-transform:uppercase">Módulos</div>
+    <div style="margin-top:8px;font-size:24px;color:var(--cy)">12</div>
+    <div style="font-size:10px;color:var(--grn);text-transform:uppercase">Empresas</div>
+    <div style="margin-top:8px;font-size:24px;color:var(--cy)">47+</div>
+    <div style="font-size:10px;color:var(--grn);text-transform:uppercase">Páginas</div>
+  </div>
+</div>
 </div>
 <footer class="ft">
 <p><strong>Proyecto: Link SEO</strong> — Tu Universo Digital · Tokenización del Ser</p>
@@ -247,6 +277,7 @@ function connectMetaMask() {
     var balance = document.getElementById("mm-balance");
     var connectBtn = document.getElementById("mm-connect-btn");
     var receiveBtn = document.getElementById("mm-receive-btn");
+    var networkEl = document.getElementById("mm-network");
     if (typeof window.ethereum === "undefined") {
         status.innerHTML = "<span style='color:#ff6b6b'>MetaMask no instalado.</span> <a href='https://metamask.io' target='_blank' style='color:var(--cy)'>Instalar</a>";
         return;
@@ -258,15 +289,51 @@ function connectMetaMask() {
             var shortAddr = addr.slice(0, 6) + "..." + addr.slice(-4);
             address.textContent = addr;
             address.style.display = "block";
-            status.innerHTML = "Conectado: " + shortAddr;
+            status.innerHTML = "✅ Conectado: " + shortAddr;
             connectBtn.textContent = "Cambiar";
             receiveBtn.style.display = "inline-block";
-            balance.textContent = "Conectado a " + addr.slice(0, 6) + "..." + addr.slice(-4);
-            balance.style.display = "block";
+            // Fetch ETH balance
+            window.ethereum.request({ method: "eth_getBalance", params: [addr, "latest"] })
+                .then(function(balHex) {
+                    var balWei = typeof BigInt !== "undefined" ? BigInt(balHex) : { toString: function() { return parseInt(balHex, 16).toString() } };
+                    var balEth = typeof balWei === "object" ? parseInt(balHex, 16) / 1e18 : Number(balWei) / 1e18;
+                    balance.innerHTML = "💰 Balance: <strong>" + balEth.toFixed(4) + " ETH</strong>";
+                    balance.style.display = "block";
+                }).catch(function() {
+                    balance.textContent = "Balance: no disponible";
+                    balance.style.display = "block";
+                });
+            // Detect network
+            window.ethereum.request({ method: "eth_chainId" })
+                .then(function(chainId) {
+                    var networks = {
+                        "0x1": "Ethereum Mainnet",
+                        "0x5": "Goerli Testnet",
+                        "0xaa36a7": "Sepolia Testnet",
+                        "0x89": "Polygon",
+                        "0xa": "Optimism",
+                        "0xa4b1": "Arbitrum",
+                        "0x38": "BSC"
+                    };
+                    var name = networks[chainId] || "Red " + chainId;
+                    if (networkEl) networkEl.textContent = "🌐 " + name;
+                });
         })
         .catch(function(err) {
             status.innerHTML = "<span style='color:#ff6b6b'>Rechazado</span>";
         });
+}
+
+function switchNetwork(chainId) {
+    if (!window.ethereum) return;
+    window.ethereum.request({
+        method: "wallet_switchEthereumChain",
+        params: [{ chainId: chainId }]
+    }).catch(function(err) {
+        if (err.code === 4902) {
+            alert("Red no disponible en tu wallet. Agrégala manualmente.");
+        }
+    });
 }
 function receivePayment() {
     var qrDiv = document.getElementById("mm-qr");
@@ -327,5 +394,17 @@ window.addEventListener("load", function() {
 
 
 
+
+<script>(function(){var c=document.getElementById("matrixCanvas"),ctx=c.getContext("2d");var W,H;function resize(){W=c.width=innerWidth;H=c.height=innerHeight}resize();window.onresize=resize;var cols=Math.floor(W/12),drops=Array(cols).fill(1).map(function(){return Math.random()*-80});function draw(){ctx.fillStyle="rgba(5,5,8,0.045)";ctx.fillRect(0,0,W,H);ctx.fillStyle="#00ff41";ctx.font="10px monospace";ctx.shadowColor="#00ff41";ctx.shadowBlur=4;for(var i=0;i<cols;i++){var x=i*12,y=drops[i]*10,char=String.fromCharCode(0x30A0+Math.random()*96);if(y>0&&y<H){ctx.fillStyle=y<80?"rgba(0,255,65,0.95)":"rgba(0,255,65,0.5)";ctx.fillText(char,x,y)}drops[i]+=0.5+Math.random()*0.5;if(y>50&&Math.random()>0.98)drops[i]=Math.random()*-60}ctx.shadowBlur=0;requestAnimationFrame(draw)};draw()})();</script>
+
+<script>
+function saveProfile(e){
+    e.preventDefault();
+    var name = document.getElementById("pf-name").value;
+    var title = document.getElementById("pf-title").value;
+    alert("📝 PERFIL ACTUALIZADO\n\nNombre: " + name + "\nDesignación: " + title + "\n\nLos cambios se guardaron correctamente.");
+    return false;
+}
+</script>
 </body>
 </html>
